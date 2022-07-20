@@ -5,7 +5,7 @@ import styles from "./brand.module.css";
 function Item({ user }) {
   return (
     <div className={styles.item}>
-      <img className={styles.img} src={user.src} />
+      <img className={styles.img} src={user.src} alt="img" />
       <h4>{user.ttl}</h4>
       <p>{user.period}</p>
     </div>

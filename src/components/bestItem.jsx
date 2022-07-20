@@ -1,14 +1,5 @@
 import React from "react";
-import styled from "styled-components"; //내부에서 컴포넌트 선언하는 모듈을 연결
 import styles from "./bestItem.module.css";
-
-const ItemArea = styled.div`
-  width: 100%;
-  height: 1300px;
-  background: green;
-  border: 2px solid yellow;
-  display: flex;
-`;
 
 function Item({ user }) {
   return (
